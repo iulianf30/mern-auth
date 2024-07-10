@@ -22,7 +22,7 @@ const loginUser = async (e) => {
       toast.error(data.error)
     } else {
       setData({});
-     navigate('/')
+     navigate('/dashboard')
     }
   } catch (error) {
     
